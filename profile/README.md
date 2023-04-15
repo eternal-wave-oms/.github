@@ -52,25 +52,25 @@ Windows | Linux
 
 GUI-приложение для поваров, официантов и администраторов. Имеет раздел заказов и раздел администратора. Раздел заказов показывает все активные заказы и позволяет отчитываться об их готовности / подаче, раздел администратора позволяет модифицировать ассортимент доступный к заказу и работать с историей закрытых заказов. Написано на Avalonia UI с использованием MVVM.
 
-Windows | MacOS | Linux (headless) | Linux (X / Wayland) | Android
---------|-------|------------------|---------------------|--------
-:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:
+Windows | MacOS | Linux (X / Wayland) | Android
+--------|-------|---------------------|--------
+:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:
 
 ### [Киоск](https://github.com/eternal-wave-oms/kiosk)
 
 GUI-приложение для стойки самообслуживания. Позволяет клиентам просматривать ассортимент и оставлять заказы. Написано на WPF.
 
-Windows | MacOS | Linux (headless) | Linux (X / Wayland) | Android
---------|-------|------------------|---------------------|--------
-:heavy_check_mark:|:x:|:x:|:x:|:x:
+Windows | MacOS | Linux (X / Wayland) | Android
+--------|-------|---------------------|--------
+:heavy_check_mark:|:x:|:x:|:x:
 
 ### [Инфопанель](https://github.com/eternal-wave-oms/orders-availibilty)
 
 GUI-приложение для инфопанелей в зале. Отображает краткие статусы заказов и сообщает о готовности. Написано на osu!framework.
 
-Windows | MacOS | Linux (headless) | Linux (X / Wayland) | Android
---------|-------|------------------|---------------------|--------
-:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:
+Windows | MacOS | Linux (X / Wayland) | Android
+--------|-------|---------------------|--------
+:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:
 
 # Запуск
 
