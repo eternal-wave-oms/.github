@@ -34,17 +34,17 @@
 Предоставляет REST API для авторизации пользователей, чтения/изменения ассортимента, сохранения заказов.
 Написан на ASP.NET MVC. Работает с базой данных через EF Core, проверяя права доступа и входящие данные. Используется PostgreSQL, однако для использования другой СУБД не требуется глобальных изменений.
 
-Windows | Linux (headless) | Linux (X / Wayland)
---------|------------------|----------
-:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:
+Windows | Linux
+--------|------
+:heavy_check_mark:|:heavy_check_mark:
 
 ### [Сервис ОЗ](https://github.com/eternal-wave-oms/order-server)
 
 Предоставляет SignalR сокет для обработки поступающих заказов в реальном времени. Принимает заказы, помещает их в очередь и принимает от дэшей события изменения статусов. Уведомляет инфопанель и дэши об изменении статусов. Написан на ASP.NET. Умеет работать при недоступности сервиса БД.
 
-Windows | Linux (headless) | Linux (X / Wayland)
---------|------------------|----------
-:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:
+Windows | Linux
+--------|------
+:heavy_check_mark:|:heavy_check_mark:
 
 ## Клиентские
 
