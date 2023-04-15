@@ -56,14 +56,22 @@ Windows | MacOS | Linux (headless) | Linux (X / Wayland) | Android
 --------|-------|------------------|---------------------|--------
 :heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:
 
+### [Киоск](https://github.com/eternal-wave-oms/kiosk)
 
-<!--
+GUI-приложение для стойки самообслуживания. Позволяет клиентам просматривать ассортимент и оставлять заказы. Написано на WPF.
 
-**Here are some ideas to get you started:**
+Windows | MacOS | Linux (headless) | Linux (X / Wayland) | Android
+--------|-------|------------------|---------------------|--------
+:heavy_check_mark:|:x:|:x:|:x:|:x:
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### [Инфопанель](https://github.com/eternal-wave-oms/orders-availibilty)
+
+GUI-приложение для инфопанелей в зале. Отображает краткие статусы заказов и сообщает о готовности. Написано на osu!framework.
+
+Windows | MacOS | Linux (headless) | Linux (X / Wayland) | Android
+--------|-------|------------------|---------------------|--------
+:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:
+
+# Запуск
+
+См. инструкции в каждом репозитории. Проект расчитан на загрузку исходного кода на каждый узел сети и ручной запуск через `dotnet run -c:Release`. Некоторым компонентам для работы требуется передать хосты/логины/пароли через переменные окружения.
