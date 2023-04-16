@@ -62,7 +62,7 @@ GUI-приложение для стойки самообслуживания. �
 
 Windows | MacOS | Linux (X / Wayland) | Android
 --------|-------|---------------------|--------
-:heavy_check_mark:|:x:|:warning: (Wine)|:x:
+:heavy_check_mark:|:x:|:warning: (Wine + DXGI)|:x:
 
 ### [Инфопанель](https://github.com/eternal-wave-oms/orders-availibilty)
 
@@ -70,7 +70,7 @@ GUI-приложение для инфопанелей в зале. Отобра
 
 Windows | MacOS | Linux (X / Wayland) | Android
 --------|-------|---------------------|--------
-:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:
+:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:warning: (не реализовано)
 
 # Запуск
 
