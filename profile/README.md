@@ -54,7 +54,7 @@ GUI-приложение для поваров, официантов и адми
 
 Windows | MacOS | Linux (X / Wayland) | Android
 --------|-------|---------------------|--------
-:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:
+:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:warning: (X Forwarding)
 
 ### [Киоск](https://github.com/eternal-wave-oms/kiosk)
 
@@ -62,7 +62,7 @@ GUI-приложение для стойки самообслуживания. �
 
 Windows | MacOS | Linux (X / Wayland) | Android
 --------|-------|---------------------|--------
-:heavy_check_mark:|:x:|:x:|:x:
+:heavy_check_mark:|:x:|:warning: (Wine)|:x:
 
 ### [Инфопанель](https://github.com/eternal-wave-oms/orders-availibilty)
 
